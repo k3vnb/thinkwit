@@ -108,6 +108,22 @@ li:first-child {
   color: black;
 }
 
+.footer-section {
+  border-top: .5px solid white;
+  background-color: #3367d6;
+  color: white;
+  padding: 5% 5%;
+}
+
+.footer-section a {
+  color: white;
+}
+
+.footer-section li {
+  display: inline-block;
+  padding: 0 1em;
+}
+
 @media screen and (max-width: 768px) {
   .card {
     max-height: 10rem;
