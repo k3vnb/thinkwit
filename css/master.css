@@ -1,0 +1,8 @@
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.show > .dropdown-menu {
+  display: block;
+}
