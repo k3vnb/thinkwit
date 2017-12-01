@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .navbar {
   display: flex;
   justify-content: flex-start;
@@ -20,6 +24,44 @@
 .card {
   box-shadow: 1px 2px 3px;
 }
-.top-cards {
-  padding: 3%;
+.top-cards img {
+  width: 98.5%;
+  height: 15rem;
+  object-fit: cover;
 }
+
+.no-pad {
+  padding: 0;
+}
+
+.card-pad {
+  padding: 0 1.5%;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    max-height: 10rem;
+    overflow: hidden;
+  }
+  .top-cards img {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .card {
+    margin: 1.5% 0;
+  }
+}
+
+/*@media screen and (max-width: 600px) {
+  .top-cards div {
+    float: left;
+  }
+  .top-cards .card-img-top {
+    max-width: 20%;
+    float: left;
+  }*/
+  /*.top-cards {
+    display: flex;
+    align-content: flex-start;
+  }*/
