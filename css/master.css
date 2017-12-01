@@ -78,19 +78,34 @@ li:first-child {
 .form-section {
   background-color: #3367d6;
   color: white;
-  padding: 10% 15px;
+  padding: 10% 15%;
+}
+
+.white-text {
+  color: white;
+  text-decoration: underline;
 }
 
 .form-section input {
   width: 100%;
   background-color: #3367d6;
   border: none;
-  border-bottom: solid white;
-
+  border-bottom: 1px solid white;
+  height: 2em;
+  margin-bottom: 8%;
 }
 
 .form-section input::placeholder {
   color: white;
+}
+
+.form-section-btn {
+  text-align: center;
+}
+
+.btn-form {
+  background-color: white;
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
