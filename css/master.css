@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   background-color: #f5f5f5;
 }
+
 ul {
   list-style: none;
 }
@@ -27,6 +29,7 @@ ul {
   overflow: hidden;
   margin-bottom: -5%;
 }
+
 .banner-img img {
   width: 100%;
   position: relative;
@@ -64,6 +67,7 @@ ul {
 .card {
   box-shadow: 1px 2px 3px;
 }
+
 .top-cards, .bottom-cards {
   overflow: hidden;
 }
@@ -82,10 +86,12 @@ ul {
 .card-pad {
   padding: 0 1.5%;
 }
+
 .link-section {
   background-color: white;
   padding: 10% 15px;
 }
+
 .link-section li:first-child {
   font-size: 1.1em;
   margin: 1.2em 0;
@@ -142,7 +148,6 @@ ul {
   background-color: #3367d6;
   color: white;
   padding: 10% 5% 20%;
-
 }
 
 .footer-section a {
@@ -223,16 +228,3 @@ i {
     height: 100%;
   }
 }
-
-/*@media screen and (max-width: 600px) {
-  .top-cards div {
-    float: left;
-  }
-  .top-cards .card-img-top {
-    max-width: 20%;
-    float: left;
-  }*/
-  /*.top-cards {
-    display: flex;
-    align-content: flex-start;
-  }*/
