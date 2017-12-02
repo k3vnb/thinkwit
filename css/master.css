@@ -8,14 +8,17 @@ ul {
   list-style: none;
 }
 
-.link-section li:first-child {
-  font-size: 1.1em;
-  margin: 1.2em 0;
-}
-
 .navbar {
   display: flex;
   justify-content: flex-start;
+}
+
+.navbar button {
+  margin-right: 5%;
+}
+
+.fa-search {
+  padding: 5% 0;
 }
 
 .hidden-banner {
@@ -37,7 +40,7 @@ ul {
 
 .hidden-banner-content-2 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 80%;
 }
 
@@ -82,6 +85,10 @@ ul {
 .link-section {
   background-color: white;
   padding: 10% 15px;
+}
+.link-section li:first-child {
+  font-size: 1.1em;
+  margin: 1.2em 0;
 }
 
 .bottom-cards .card-img-top {
@@ -200,6 +207,20 @@ i {
   .card-block {
     padding: 3%;
     object-fit: scale-down;
+  }
+
+  .top-image {
+    margin: 3% 0;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .container .row {
+    padding: 5% 0;
+  }
+
+  .top-image {
+    height: 100%;
   }
 }
 
