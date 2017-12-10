@@ -2,54 +2,11 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #f5f5f5;
+.container-a {
+  padding: 15vh 15px;
+  margin: 0;
 }
 
-ul {
-  list-style: none;
-}
-
-.navbar {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.navbar button {
-  margin-right: 5%;
-}
-
-.fa-search {
-  padding: 5% 0;
-}
-
-.hidden-banner {
-  width: 100%;
-  max-height: 400px;
-  overflow: hidden;
-  margin-bottom: -5%;
-}
-
-.banner-img img {
-  width: 100%;
-  position: relative;
-}
-
-.hidden-banner-content-1 {
-  position: absolute;
-  top: 30%;
-  left: 10%;
-}
-
-.hidden-banner-content-2 {
-  position: absolute;
-  top: 40%;
-  left: 80%;
-}
-
-.container {
-  margin: 8% 15px;
-}
 .top-image {
   width: 100%;
   height: 340px;
@@ -87,110 +44,6 @@ ul {
   padding: 0 1.5%;
 }
 
-.link-section {
-  background-color: white;
-  padding: 10% 15px;
-}
-
-.link-section li:first-child {
-  font-size: 1.1em;
-  margin: 1.2em 0;
-}
-
-.bottom-cards .card-img-top {
-  background-color: lightgrey;
-}
-
-.enter-button {
-  text-align: center;
-  margin: 10% 0;
-}
-
-.enter-button a {
-  width: 10rem;
-}
-
-.form-section {
-  background-color: #3367d6;
-  color: white;
-  padding: 10% 15%;
-}
-
-.white-text {
-  color: white;
-  text-decoration: underline;
-}
-
-.form-section input {
-  width: 100%;
-  background-color: #3367d6;
-  border: none;
-  border-bottom: 1px solid white;
-  height: 2em;
-  margin-bottom: 8%;
-}
-
-.form-section input::placeholder {
-  color: white;
-}
-
-.form-section-btn {
-  text-align: center;
-}
-
-.btn-form {
-  background-color: white;
-  color: black;
-}
-
-.footer-section {
-  border-top: .5px solid white;
-  background-color: #3367d6;
-  color: white;
-  padding: 10% 5% 20%;
-}
-
-.footer-section a {
-  color: white;
-}
-
-.footer-section li {
-  display: inline-block;
-  padding: 0 1em;
-  margin-bottom: 2em;
-}
-
-.footer-section .dropdown {
-  float: left;
-}
-
-.footer-section button {
-    background-color: #3367d6;
-    border: none;
-    width: 120%;
-}
-
-.footer-section button:hover {
-  background-color: #3367d6;
-  text-decoration: underline;
-}
-
-.last-line {
-  margin-top: 10%;
-}
-
-.icon-row {
-  float: right;
-}
-
-i {
-  margin-left: 1em;
-  margin-top: 5%;
-}
-
-.fa {
-  font-size: 1.5em;
-}
 
 
 
@@ -202,29 +55,5 @@ i {
   .top-cards img, .bottom-cards img {
     height: 100%;
     object-fit: scale-down;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .card {
-    margin: 1.5% 0;
-    padding: 1.5%;
-  }
-  .card-block {
-    padding: 3%;
-    object-fit: scale-down;
-  }
-
-  .top-image {
-    margin: 3% 0;
-  }
-}
-
-@media screen and (min-width: 1001px) {
-  .container .row {
-    padding: 5% 0;
-  }
-
-  .top-image {
-    height: 100%;
   }
 }
