@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+
+/*.row {
+  padding-bottom: 15px;
+}*/
 .title-div h1 {
   font-weight: lighter;
   font-size: 1.8em;
@@ -33,6 +37,7 @@
   color: white;
   text-shadow: 1px 1px 1px black;
   font-size: .9em;
+  font-weight: lighter;
 }
 
 .top-image-caption-a {
@@ -40,27 +45,39 @@
 }
 
 .card {
-  box-shadow: 1px 2px 3px;
+  box-shadow: .5px .5px 3px;
+  width: 100%;
+  margin: auto;
+  padding: .1%;
 }
 
 .top-cards, .bottom-cards {
   overflow: hidden;
 }
 
-.card-block img {
+.card-block-a {
+  background-color: lightgrey;
+}
+.card-block {
+  padding: 5%;
+  min-height: 200px;
+}
+.card-img-col {
+  min-width: 120px;
+}
+
+.card-img-top {
+  height: 100%;
+}
+.card-text-body {
   width: 100%;
-  height: 15rem;
-  text-align: center;
-  object-fit: cover;
+  padding: 1%;
 }
 
-.no-pad {
-  padding: 0;
+.sub-text {
+  font-size: .8em;
 }
 
-.card-pad {
-  padding: 0 1.5%;
-}
 
 
 
