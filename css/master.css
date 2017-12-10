@@ -14,6 +14,7 @@
 .container-a {
   padding: 15vh 15px;
   margin: 0;
+  min-width: 240px;
 }
 
 .top-image {
@@ -47,28 +48,23 @@
 .card {
   box-shadow: .5px .5px 3px;
   width: 100%;
-  margin: auto;
   padding: .1%;
 }
 
-.top-cards, .bottom-cards {
-  overflow: hidden;
-}
 
 .card-block-a {
   background-color: lightgrey;
 }
 .card-block {
   padding: 5%;
+}
+/*.card-img-col {
   min-height: 200px;
-}
-.card-img-col {
-  min-width: 120px;
-}
+}*/
 
-.card-img-top {
-  height: 100%;
-}
+/*.card-img-top {
+  min-width: 120px;
+}*/
 .card-text-body {
   width: 100%;
   padding: 1%;
@@ -80,15 +76,12 @@
 
 
 
-
-
-@media screen and (max-width: 768px) {
-  .card {
-    max-height: 10rem;
-    overflow: hidden;
+@media screen and (max-width: 260px) {
+  .card-block {
+    margin-top: auto;
   }
   .top-cards img, .bottom-cards img {
-    height: 100%;
-    object-fit: scale-down;
+    height: 100%;*/
+    /*object-fit: scale-down;
   }
 }
