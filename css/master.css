@@ -86,9 +86,27 @@
 @media screen and (min-width: 576px) {
   .card {
     padding: 0;
-    height: 320px;
+    height: 50vh;
   }
   .card-block {
+    height: 25vh;
+  }
+  .card-img-top-a {
+    height: 15vw;
+    width: auto;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0, 5vh);
+  }
+  .card-img-top-b {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
+  .card-bottom {
     height: 50%;
   }
 }
