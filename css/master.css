@@ -2,9 +2,6 @@
   box-sizing: border-box;
 }
 
-/*.row {
-  padding-bottom: 15px;
-}*/
 .title-div h1 {
   font-weight: lighter;
   font-size: 1.8em;
@@ -31,6 +28,7 @@
   color: white;
   text-shadow: 1px 1px 1px black;
 }
+
 .top-image-caption-b {
   position: absolute;
   top: 85%;
@@ -48,7 +46,7 @@
 .card {
   box-shadow: .5px .5px 3px;
   width: 100%;
-  padding: .1%;
+  padding: 2%;
 }
 
 
@@ -56,32 +54,41 @@
   background-color: lightgrey;
 }
 .card-block {
-  padding: 5%;
+  min-width: 110px;
 }
-/*.card-img-col {
-  min-height: 200px;
-}*/
 
-/*.card-img-top {
-  min-width: 120px;
-}*/
-.card-text-body {
-  width: 100%;
-  padding: 1%;
-}
 
 .sub-text {
   font-size: .8em;
+  /*position: relative;
+  bottom: 0%;*/
 }
 
 
-
-@media screen and (max-width: 260px) {
-  .card-block {
-    margin-top: auto;
+@media screen and (max-width: 350px) {
+  .card-text {
+    padding-left: 50px;
   }
-  .top-cards img, .bottom-cards img {
-    height: 100%;*/
-    /*object-fit: scale-down;
+}
+
+@media screen and (min-width: 400px) and (max-width: 575px) {
+  .card-block {height: 120px;
+    max-width: 120px;
+  }
+  .card-block img {
+    height: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+
+}
+@media screen and (min-width: 576px) {
+  .card {
+    padding: 0;
+    height: 320px;
+  }
+  .card-block {
+    height: 50%;
   }
 }
