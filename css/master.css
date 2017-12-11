@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+.top-image, .card {
+  margin-bottom: 3%;
+}
 
 .title-div h1 {
   font-weight: lighter;
@@ -16,7 +19,7 @@
 
 .top-image {
   width: 100%;
-  height: 340px;
+  height: 50vh;
   position: relative;
   object-fit: cover;
 }
@@ -44,9 +47,10 @@
 }
 
 .card {
-  box-shadow: .5px .5px 3px;
+  box-shadow: .5px 2px 3px lightgrey;
   width: 100%;
   padding: 2%;
+  border-radius: 0;
 }
 
 
@@ -60,8 +64,6 @@
 
 .sub-text {
   font-size: .8em;
-  /*position: relative;
-  bottom: 0%;*/
 }
 
 
@@ -69,6 +71,9 @@
   .card-text {
     padding-left: 50px;
   }
+  /*.top-image, .card {
+    margin-bottom: 5%;
+  }*/
 }
 
 @media screen and (min-width: 400px) and (max-width: 575px) {
@@ -81,7 +86,6 @@
     object-fit: cover;
     object-position: center;
   }
-
 }
 @media screen and (min-width: 576px) {
   .card {
@@ -90,15 +94,17 @@
   }
   .card-block {
     height: 25vh;
+    max-height: 100%;
   }
   .card-img-top-a {
-    height: 15vw;
+    height: 18vw;
+    max-height: 100%;
     width: auto;
-    display: table-cell;
-    vertical-align: middle;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translate(0, 5vh);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
   }
   .card-img-top-b {
     height: 100%;
@@ -106,7 +112,13 @@
     object-fit: cover;
     object-position: left;
   }
+  .card-text {
+    padding: 5%;
+  }
   .card-bottom {
-    height: 50%;
+    display: table-cell;
+  }
+  .sub-text {
+    vertical-align: bottom;
   }
 }
