@@ -8,6 +8,8 @@
 
 _A responsive webpage design featuring responsive qualities of CSS including float & flex-box, as well as incorporation of Bootstrap grid elements, responsive utilities & navbar components. It can be found at https://lemurriot.github.io/thinkwit/ ._
 
+### Screenshot:
+![Screenshot](img/screenshot1a.png?raw=true)
 
 ## Known Bugs
 
